@@ -280,7 +280,7 @@ body {
 a {
   cursor: pointer;
   // text-align: center;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 button {
@@ -843,6 +843,7 @@ button {
   color: #fff;
   margin-top: 20px;
   background: url("../../img/footer.webp");
+  background-size: cover;
 
   @media screen and (min-width: 1200px) {
     margin-top: 25px;
@@ -1044,16 +1045,16 @@ button {
 .slider__h1 {
   color: #842989;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   margin: 60px 0px 30px;
   font-size: 34px;
-  font-weight: 400;
   margin: 40% 0px 20px;
 
   @media screen and (min-width: 1200px) {
     font-size: 42px;
     margin: 20% 0px 10%;
     letter-spacing: 2.1px;
+    font-weight: 300;
   }
 }
 
@@ -1177,7 +1178,7 @@ button {
 
 .hero__p {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.4;
   font-size: 16px;
   color: #f3f3f3;
@@ -1236,10 +1237,10 @@ button {
 
 .footer__p {
   margin-bottom: 15px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: inherit;
   text-align: center;
-  color: #ffd814;
+  color: #76fff8;
 }
 
 .footer__socials {
@@ -1255,6 +1256,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 10px;
 }
 
 .footer__marg {
@@ -1268,8 +1270,9 @@ button {
 .footer__domain {
   display: block;
   margin-top: 40px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
+  text-align: center;
 }
 
 .flex__about {
