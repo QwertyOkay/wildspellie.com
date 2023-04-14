@@ -1,7 +1,7 @@
 $modal-border: 0px;
 $duration: 250ms;
 $function: cubic-bezier(0.4, 0, 0.2, 1);
-$background-modal: #f3f3f3;
+$background-modal: url("../../img/footer.webp");
 $modal-title: 1.89em;
 $modal-text: 1.6em;
 
@@ -781,6 +781,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
   height: auto;
   padding: 15px;
   background: $background-modal;
+  background-size: cover;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -848,6 +849,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
   height: auto;
   padding: 15px;
   background: $background-modal;
+  background-size: cover;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -928,8 +930,9 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
   width: 90vw;
   height: auto;
   padding: 15px 15px 0px 15px;
-  background-color: rgb(243, 243, 245);
-  // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('./../../img/modals.jpg');
+  // background-color: rgb(243, 243, 245);
+  background-image: $background-modal;
+  background-size: cover;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -966,7 +969,8 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  color: #000;
+  color: #fff;
+  font-weight: 300;
   font-size: $modal-text;
 
   @media screen and (min-width: 1200px) {
@@ -1030,6 +1034,8 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
   padding: 40px;
   background-color: rgb(243, 243, 245);
   opacity: 1;
+  background: $background-modal;
+  background-size: cover;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),

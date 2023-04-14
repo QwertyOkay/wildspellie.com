@@ -1,3 +1,5 @@
+$icon-color: #fff;
+
 .icon__raiting {
   width: 150px;
   // height: 80px;
@@ -17,7 +19,7 @@
 }
 
 .icon__close4 {
-  fill: currentColor;
+  fill: $icon-color;
   width: 10px;
   height: 10px;
 }
@@ -93,13 +95,13 @@
 }
 
 .icon__close5 {
-  fill: #fff;
+  fill: $icon-color;
   width: 10px;
   height: 10px;
 }
 
 .icon__close3 {
-  fill: #ffd814;
+  fill: $icon-color;
   width: 10px;
   height: 10px;
 }
