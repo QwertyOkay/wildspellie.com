@@ -1,6 +1,10 @@
 (() => {
   const refs = {
 
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+
     openModalBtn2: document.querySelector('[data-modal-open2]'),
     closeModalBtn2: document.querySelector('[data-modal-close2]'),
     modal2: document.querySelector('[data-modal2]'),
@@ -24,7 +28,14 @@
     openModalBtn7: document.querySelector('[data-modal-open7]'),
     closeModalBtn7: document.querySelector('[data-modal-close7]'),
     modal7: document.querySelector('[data-modal7]'),
+
+    openModalBtn8: document.querySelector('[data-modal-open8]'),
+    closeModalBtn8: document.querySelector('[data-modal-close8]'),
+    modal8: document.querySelector('[data-modal8]'),
   };
+
+   refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
 
   refs.openModalBtn2.addEventListener('click', toggleModal2);
   refs.closeModalBtn2.addEventListener('click', toggleModal2);
@@ -43,6 +54,13 @@
 
      refs.openModalBtn7.addEventListener('click', toggleModal7);
   refs.closeModalBtn7.addEventListener('click', toggleModal7);
+
+  refs.openModalBtn8.addEventListener('click', toggleModal8);
+  refs.closeModalBtn8.addEventListener('click', toggleModal8);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
   
   function toggleModal2() {
     refs.modal2.classList.toggle('is-hidden2');
@@ -66,6 +84,10 @@
 
   function toggleModal7() {
     refs.modal7.classList.toggle('is-hidden7');
+  }
+
+  function toggleModal8() {
+    refs.modal8.classList.toggle('is-hidden8');
   }
 
 })();
