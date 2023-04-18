@@ -51,12 +51,12 @@
 
 .ctrl-btn.pro-prev {
   left: 0;
-  color: #000;
+  color: #fff;
 }
 
 .ctrl-btn.pro-next {
   right: 0;
-  color: #000;
+  color: #fff;
 }
 
 .item {
@@ -75,15 +75,15 @@
   color: #000;
   font-size: 14px;
   flex-direction: column;
+  gap: 5px;
 }
 
 .slider-prodTitle {
   text-transform: uppercase;
-  font-size: 15px;
-  color: #b63434;
+  font-size: 16px;
+  color: #000;
   line-height: 1.2;
   letter-spacing: 0;
-  font-family: "Merriweather Sans", sans-serif;
   font-weight: 400;
 }
 
