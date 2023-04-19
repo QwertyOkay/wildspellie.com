@@ -4042,13 +4042,14 @@ button {
   padding: 25px 50px;
   color: #363636;
   text-align: center;
-  border: 0.5px solid #000;
   border-radius: 0px;
   font-size: 14px;
+  border: none;
 }
 @media screen and (min-width: 1200px) {
   .items__input {
-    padding: 25px 50px;
+    padding: 25px 40px;
+    background: rgba(132, 41, 137, 0.0509803922);
   }
 }
 
@@ -4058,7 +4059,7 @@ button {
 
 .items__input::placeholder {
   font-size: 14px;
-  color: #000;
+  color: rgba(0, 0, 0, 0.6117647059);
 }
 
 .items__info {
@@ -4071,18 +4072,18 @@ button {
 }
 
 .items__button {
-  color: #ffd814;
   font-weight: 600;
   transition: 0.3s ease-in-out;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  background: #000;
   font-size: 15px;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 25px 109px;
+  color: #842989;
+  background: #3cbeb7;
 }
 
 .prodPrice {
