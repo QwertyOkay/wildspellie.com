@@ -1172,7 +1172,19 @@ button {
   align-items: center;
   height: 100%;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
+}
+
+.hero__flexAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  padding: 160px 20px;
+  @media screen and (min-width: 1200px) {
+    padding: 90px 20px;
+  }
 }
 
 .hero__p {
@@ -1192,6 +1204,11 @@ button {
     margin-bottom: 30px;
     padding: 0px 220px;
   }
+}
+
+.active {
+  text-decoration: underline;
+  // color: transparent;
 }
 
 .hero__span {
