@@ -4039,12 +4039,13 @@ button {
   outline: 0;
   margin-bottom: 10px;
   transition: 0.3s ease-in-out;
-  padding: 25px 50px;
+  padding: 25px 39px;
   color: #363636;
   text-align: center;
   border-radius: 0px;
   font-size: 14px;
   border: none;
+  background: rgba(132, 41, 137, 0.0509803922);
 }
 @media screen and (min-width: 1200px) {
   .items__input {
